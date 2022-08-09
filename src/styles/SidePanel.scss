@@ -1,0 +1,45 @@
+.side-panel-wrapper {
+	.nav-menu-wrapper {
+		width: 70px;
+		height: 100%;
+		background-color: #000;
+		opacity: 0.7;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+
+		.dots {
+			margin-top: 5px;
+		}
+
+		.logo {
+			margin-top: 15px;
+		}
+
+		.logo-img {
+			transition: 40ms;
+			cursor: pointer;
+		}
+
+		.logo-img:hover {
+			scale: 1.2;
+		}
+
+		.btn-add {
+			width: 50px;
+			height: 50px;
+			margin-bottom: 15px;
+			background-color: rgb(29, 29, 29);
+			border-radius: 50%;
+			transition: 40ms;
+			cursor: pointer;
+		}
+
+		.btn-add:hover {
+			scale: 1.2;
+		}
+	}
+	.nomad-list-wrapper {
+	}
+}
