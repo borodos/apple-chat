@@ -6,6 +6,7 @@ import Logo from "../img/Logo.png";
 export const SidePanel = () => {
 	return (
 		<div className="side-panel-wrapper">
+			{/* == NAV_MENU == */}
 			<div className="nav-menu-wrapper">
 				<div
 					style={{
@@ -22,10 +23,18 @@ export const SidePanel = () => {
 					</div>
 				</div>
 				<button className="btn-add">
-					<i className="fa-solid fa-plus" style={{ color: "white" }}></i>
+					<i
+						className="fa-solid fa-plus plus-img"
+						style={{ color: "white" }}
+					></i>
 				</button>
 			</div>
-			<div className="nomad-list-wrapper"></div>
+			{/* == NOMAD LIST */}
+			<div className="nomad-list-wrapper">
+				<div>
+					<select>Nomad List</select>
+				</div>
+			</div>
 		</div>
 	);
 };
